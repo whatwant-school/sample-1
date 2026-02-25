@@ -6,7 +6,7 @@
 - 더하기 (add)
 - 빼기 (subtract)
 - 곱하기 (multiply)
-- 나누기 (나중에 추가 예정)
+- 나누기 (divide)
 
 ## 실행 방법
 ```bash
