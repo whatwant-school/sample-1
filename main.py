@@ -1,28 +1,9 @@
 from dotenv import load_dotenv
 import os
+from utils import add, subtract, multiply, divide
 
 
 load_dotenv()
-
-debug_mode = os.getenv("DEBUG")
-
-
-def add(a, b):
-    return a + b
-
-
-def subtract(a, b):
-    return a - b
-
-
-def multiply(a, b):
-    return a * b
-
-
-def divide(a, b):
-    if b == 0:
-        return "Error: Division by zero"
-    return a / b
 
 
 def main():
