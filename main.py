@@ -19,6 +19,10 @@ def multiply(a, b):
     return a * b
 
 
+def divide(a, b):
+    return a / b
+
+
 def main():
     print(f"Debug Mode: {debug_mode}")
     print(f"1 + 2 = {add(1, 2)}")
